@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="yname"> Your Name : </label>
+      <input
+        type="text"
+        placeholder="Your Name"
+        id="yname"
+        required
+        minlength="4"
+        maxlength="10"
+      />
+      <br /><br />
+
+      <label for="email">Your Email : </label>
+      <input type="email" placeholder="Your Email" id="email" disabled />
+      <br /><br />
+
+      <label for="web">Your Website : </label>
+      <input type="url" placeholder="Your Website" id="web" />
+      <br /><br />
+
+      <label for="phone">Your Mobile : </label>
+      <input type="number" placeholder="Your Mobile" id="phone" />
+      <br /><br />
+
+      <label for="pass">Your Password : </label>
+      <input type="password" placeholder="Your Password" id="pass" />
+      <br /><br />
+
+      <label for="pic">Your picture : </label>
+      <input type="file" id="pic" accept=".jpg,.png" />
+      <br /><br />
+
+      <label for="dob">Date of birth : </label>
+      <input type="date" id="dob" placeholder="Date of Birth" />
+      <br /><br />
+
+      <label for="hairColor">Hair Color : </label>
+      <input type="color" id="hairColor" />
+      <br /><br />
+
+      <label for="range">Voice Range :</label>
+      <input type="range" id="range" />
+      <br /><br />
+
+      <label for="">Gender : </label>
+      <input type="radio" name="gndr" value="Male" />Male
+      <input type="radio" name="gndr" value="Female" />Female
+      <input type="radio" name="gndr" value="Others" />Tiktoker <br /><br />
+
+      <label for="">Quata : </label>
+      <input type="checkbox" name="qt" value="Women" />Women
+      <input type="checkbox" name="qt" value="Tribe" />Tribe
+      <input type="checkbox" name="qt" value="Disabled" />Disabled
+      <input type="checkbox" name="qt" value="Freedom Fighter" />Freedom Fighter
+      <br /><br />
+
+      <label for="cnt">Country : </label>
+      <select name="cnt" id="cnt">
+        <option value="">--Select Counntry--</option>
+        <option value="bd">Bangladesh</option>
+        <option value="In">India</option>
+        <option value="Pk">Pakistan</option>
+        <option value="Others">Others</option>
+      </select>
+      <br /><br />
+
+      <label for="cmt">Comment : </label><br />
+      <textarea
+        name=""
+        id="cmt"
+        cols="50"
+        rows="5"
+        placeholder="Your Comment"
+      ></textarea>
+      <br /><br />
+      <input type="reset" value="Reload" />
+      <input type="submit" value="Sign-up" />
+    </form>
+  </body>
+</html>

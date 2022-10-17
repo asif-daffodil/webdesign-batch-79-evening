@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Table</title>
+    </head>
+    
+    <body>
+
+        <!-- table tag shuru -->
+        <table border="1px" width="500px" cellspacing="0" cellpadding="17px">
+            
+            <!-- ist table row shuru -->
+            <tr>
+                <td rowspan="2"></td>
+                <td colspan="2" align="center" style="font-size: x-large;"><b>Average</b></td>
+                <td align="center" style="font-size: x-large;" rowspan="2"><b>Red<br>Eyes</b></td>
+            </tr>
+            <!-- ist table row shesh -->
+
+            <!-- 2nd table row shuru -->
+            <tr>
+                <td align="center" style="font-size: x-large;"><b>Height</b></td>
+                <td align="center" style="font-size: x-large;"><b>Weight</b></td>
+            </tr>
+            <!-- 2nd table row shesh -->
+
+            <!-- 3rd table row shuru -->
+            <tr>
+                <td align="center" style="font-size: x-large;"><b>Males</b></td>
+                <td align="left">1.9</td>
+                <td align="left">0.003</td>
+                <td align="left">40%</td>
+            </tr>
+            <!-- 3rd table row shesh -->
+
+            <!-- 4th table row shuru -->
+            <tr>
+                <td align="center" style="font-size: x-large;"><b>Females</b></td>
+                <td align="left">1.7</td>
+                <td align="left">0.002</td>
+                <td align="left">43%</td>
+            </tr>
+            <!-- 4th table row shesh -->
+            
+        </table>
+        <!-- table tag shesh -->
+        <br><br>
+
+        <!-- table er moddhe form : code shuru-->
+        <table  align="center">
+            <form action="">
+
+                <!-- title tag shuru -->
+                <tr>
+                    <td colspan="3">
+                        <h2>
+                            Novell Services Login
+                        </h2>
+                    </td>
+                </tr>
+                <!-- title tag shuru -->
+
+                <!-- username er tag shuru -->
+                <tr>
+                    <td>
+                        <label for="username">Username:</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Enter Your Name" id="username" required>
+                    </td>
+                </tr>
+                <!-- username er tag shesh -->
+
+                <!-- password er tag shuru -->
+                <tr>
+                    <td>
+                        <label for="pass">Password:</label>
+                    </td>
+                    <td>
+                        <input type="password" placeholder="**********" id="pass" required minlength="10">
+                    </td>
+                </tr>
+                <!-- password er tag shesh -->
+
+                <!-- city of employment er tag shuru -->
+                <tr>
+                    <td>
+                        <label for="coe">City of <br> Employment:</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="City of Employment" id="coe">
+                    </td>
+                </tr>
+                <!-- city of employment er tag shesh -->
+
+                <!-- dropdown er tag shuru -->
+                <tr>
+                    <td>
+                        <label for="ws">
+                            Web Server:
+                        </label>
+                    </td>
+                    <td>
+                        <select name="Web Server:" id="ws">
+                            <option value="--Choose a Server--">--Choose a Server--</option>
+                            <option value="Apache">Apache</option>
+                            <option value="IIS">IIS</option>
+                            <option value="Jagsaw">Jagsaw</option>
+                            <option value="Lighttpd">Lighttpd</option>
+                        </select>
+                    </td>
+                </tr>
+                <!-- dropdown er tag shesh -->
+
+                <!-- radiobutton er tag shuru -->
+                <tr>
+                    <td>
+                        <label for="">
+                            Please specify <br> your role:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="radio" name="role" value="Admin">Admin
+                        <br>
+                        <input type="radio" name="role" value="Engineer">Engineer
+                        <br>
+                        <input type="radio" name="role" value="Manager">Manager
+                        <br>
+                        <input type="radio" name="role" value="Guest">Guest
+                    </td>
+                </tr>
+                <!-- radiobutton er tag shesh -->
+
+                <!-- checkbox er tag shuru -->
+                <tr>
+                    <td>
+                        <label for="">
+                            Single Sign-on <br> to the following
+                        </label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="sign" value="Mail">Mail
+                        <br>
+                        <input type="checkbox" name="sign" value="Payroll">Payroll
+                        <br>
+                        <input type="checkbox" name="sign" value="Self-service">Self-service
+                    </td>
+                </tr>
+                <!-- checkbox er tag shesh -->
+
+                <!-- address er tag shuru -->
+                <tr >
+                    <td valign="top">
+                        <label for="address">Address:</label>
+                    </td>
+                    <td>
+                        <textarea name="Address" id="address" cols="30" rows="5" placeholder="Write Your Address"></textarea>
+                    </td>
+                </tr>
+                
+                <!-- login + reset er tag shuru -->
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Login">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+                <!-- login + reset er tag shesh -->
+            
+            </form>
+        </table>
+        <!-- table er moddhe form : code shesh -->
+    
+    </body>
+</html>

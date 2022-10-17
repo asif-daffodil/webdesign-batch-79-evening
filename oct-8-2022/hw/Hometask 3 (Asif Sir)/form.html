@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Details Form</title>
+    </head>
+    
+    <body style="background-color: rgb(153, 240, 65);">
+
+        <!-- heading tag shuru -->
+        <h1 style="color: red; text-align: center;">
+            Personal Details Form
+        </h1>
+        <!-- heading tag shesh -->
+
+        <center>
+            <form action="">
+                
+                <!-- name er code shuru -->
+                <label for="name">
+                    Name :
+                </label>
+                <input type="text"
+                 placeholder="Enter Your Name"
+                 id="name">
+                 <!-- name er code shesh -->
+                 <br> <br>
+
+                 <!-- email er code shuru -->
+                 <label for="email">
+                    E-mail id :
+                 </label>
+                 <input type="email"
+                 placeholder="Enter Your E-mail"
+                 id="email"
+                 required>
+                 <!-- email er code shesh -->
+                 <br> <br>
+
+                 <!-- password er code shuru -->
+                 <label for="password">
+                    Password :
+                 </label>
+                 <input type="password"
+                 placeholder="Minimum Length 10"
+                 id="password"
+                 required
+                 minlength="10">
+                 <!-- password er code shesh -->
+                 <br> <br>
+
+                 <!-- radio button er code shuru -->
+                 <label>
+                    Gender :
+                 </label>
+                 <input type="radio" name="gender" value="Male"> Male
+                 <input type="radio" name="gender" value="Female"> Female
+                 <!-- radio button er code shesh -->
+                 <br> <br>
+
+                 <!-- contact er code shuru -->
+                 <label for="contact">
+                    Contact# :
+                 </label>
+                 <input type="number"
+                 placeholder="(+88) 01*********"
+                 id="contact"
+                 required>
+                 <!-- contact er code shesh -->
+                 <br> <br>
+
+                 <!-- 2nd heading er code shuru -->
+                 <h2 style="color: red;">
+                    Educational Qualification
+                 </h2>
+                 <!-- 2nd heading er code shesh -->
+
+                 <!--degree dropdown list er code shuru -->
+                 <label for="dropdown">
+                    Degree :
+                 </label>
+                 <select name="" id="dropdown">
+                    <option value="Select Group">-- Select Group --</option>
+                    <option value="Graduate">Graduate</option>
+                    <option value="Undergraduate">Undergraduate</option>
+                    <option value="H.S.C">H.S.C</option>
+                    <option value="S.S.C">S.S.C</option>
+                </select>
+                 <!-- dropdown list er code shesh -->
+                 <br> <br>
+
+                 <!-- religion dropdown list er code shuru -->
+                 <label for="religion">
+                    Religion :
+                 </label>
+                 <select name="" id="religion">
+                    <option value="Select Religion">-- Select Religion --</option>
+                    <option value="Muslim">Muslim</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Christian">Christian</option>
+                    <option value="Zionist">Zionist</option>
+                </select>
+                <br> <br>
+                <!-- religion dropdown list er code shesh -->
+
+                <!-- checkbox er code shuru -->
+                <label>
+                    Hobbies :
+                </label>
+                <input type="checkbox" name="hobbies" value="Playing Chess"> Playing Chess
+                <input type="checkbox" name="hobbies" value="Reading Books"> Reading Books
+                <br> <br>
+                <!-- checkbox er code shesh -->
+
+                <!-- address er code shuru -->
+                <label for="thikana">
+                    Address :
+                </label>
+                <br> <br>
+                <textarea name="" id="thikana" cols="50" rows="10" placeholder="Write Your Address"></textarea>
+                <br> <br>
+                <!-- address er code shesh -->
+
+                <!-- attach resume er code shuru -->
+                <label for="attachment">
+                    Attach Resume :
+                </label>
+                <input type="file"
+                id="attachment">
+                <br> <br>
+                <!-- attach resume er code shesh -->
+
+                <!-- i agree'r checkbox er code shuru -->
+                <input type="checkbox" name="iagree" value="iagree"> I Agree
+                <br> <br>
+                <!-- i agree'r checkbox er code shesh -->
+                
+                <!-- reset er code shuru -->
+                <input type="reset" value="RESET">
+                <!-- reset er code shesh -->
+
+                <!-- submit er code shuru -->
+                <input type="submit" value="SUBMIT">
+                <!-- submit er code shesh -->
+            
+            </form>
+        </center>
+    </body>
+</html>

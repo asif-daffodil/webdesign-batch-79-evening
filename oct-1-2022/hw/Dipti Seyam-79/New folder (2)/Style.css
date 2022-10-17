@@ -1,0 +1,47 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+}
+
+.heading_container {
+    text-align: center;
+
+}
+
+.myredT {
+    color: rgb(216, 0, 0);
+}
+.paragraph1{
+    text-align:center
+;
+}
+.paragraph2{
+    text-align: center;
+ color: cornflowerblue;
+    background-color: black;
+}
+.img_container{
+display: flex;
+justify-content: space-between;
+}
+.img_cont{
+    display: flex;
+    justify-content: space-between;
+}
+.img1{
+    width: 400px;
+    height: 200px;
+}
+.img2{
+    width: 400px;
+    height: 400px;
+}
+.img3{
+    width: 400px;
+    height: 400px;
+}
+.img4{
+    width: 400px;
+    height: 400px;
+}
