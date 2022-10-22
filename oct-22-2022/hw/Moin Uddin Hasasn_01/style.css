@@ -1,0 +1,21 @@
+body {
+  background: gray;
+  justify-content: center;
+  display: flex;
+  margin-top: 2px;
+}
+#rectangle1 {
+  background: black;
+  width: 400px;
+  height: 100px;
+}
+#rectangle2 {
+  background: red;
+  width: 400px;
+  height: 100px;
+}
+#rectangle3 {
+  background: rgb(247, 231, 19);
+  width: 400px;
+  height: 100px;
+}

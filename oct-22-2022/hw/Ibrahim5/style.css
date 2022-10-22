@@ -1,0 +1,23 @@
+.germanyFlag {
+  margin: auto;
+  background: #ccc;
+  /* width: 400px; */
+}
+
+.black {
+  width: 400px;
+  height: 100px;
+  background-color: black;
+}
+
+.red {
+  width: 400px;
+  height: 100px;
+  background-color: red;
+}
+
+.yellow {
+  width: 400px;
+  height: 100px;
+  background-color: yellow;
+}

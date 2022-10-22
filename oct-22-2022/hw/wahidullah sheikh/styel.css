@@ -1,0 +1,26 @@
+.wahid {
+  color: green;
+  font-size: 30px;
+  text-decoration: underline;
+  font-weight: bolder;
+  text-align: center;
+}
+.Flag {
+  width: 300px;
+  margin: 20px auto;
+}
+.kalo {
+  width: 100%;
+  height: 70px;
+  background: black;
+}
+.lal {
+  width: 100%;
+  height: 70px;
+  background: red;
+}
+.holud {
+  width: 100%;
+  height: 70px;
+  background: yellow;
+}
