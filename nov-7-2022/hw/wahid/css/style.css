@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fff;
+}
+.main{
+    display: flex;
+    justify-content: center;
+  
+    
+}
+.webdevloper{
+    background: #fff;
+    width: 300px;
+    height: 500px;
+    margin: 15px;
+    border-radius: 20px;
+    font-family: Arial;
+   
+}
+.photo{
+    background-color:rgb(156, 10, 10);
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+    
+}
+.photo-1{
+    background-image: url("../photo/photo\ \(1\).jpg");
+}
+
+.photo-2{
+    background-image: url("../photo/photo\ \(2\).jpg");
+}
+
+.photo-3{
+    background-image: url("../photo/photo\ \(3\).jpeg");
+}
+button{
+    background-color: red;
+    width: 150px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    text-align: center;
+}
+
+.hedding{
+    color: #000;
+    font-size: 32px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sndhedding{
+    font-size: 24px;
+    color: rgb(224, 20, 20);
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    text-align: center;
+    margin: 5px;
+}

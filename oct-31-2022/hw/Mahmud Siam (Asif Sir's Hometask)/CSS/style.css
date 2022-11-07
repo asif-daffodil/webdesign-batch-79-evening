@@ -1,0 +1,40 @@
+.flag{
+    margin: 40px auto;
+    padding: 0;
+    box-sizing: border-box;
+    width: 500px;
+    height: 250px;
+    box-shadow: 10px 10px 10px thistle;
+}
+
+.black{
+    width: 100%;
+    height: 33%;
+    background-color: black;
+}
+
+.red{
+    width: 100%;
+    height: 34%;
+    background-color: red;
+}
+.yellow{
+    width: 100%;
+    height: 33%;
+    background-color: yellow;
+}
+.text{
+    margin: 40px;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: Arial;
+    border: 5px solid black;
+    width: 500px;
+    font-size: 16px;
+    font-variant: small-caps;
+    border-radius: 20px;
+    text-align: justify;
+    box-shadow: 8px 8px 8px blue, -8px -8px 8px seagreen, 0 0 8px red inset;
+    font-style: italic;
+    font-weight: bold;
+}

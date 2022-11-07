@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cointain{
+    width: 1200px;
+    height:1000px;
+    background-color: aquamarine;
+    display: flex;
+}
+
+.main{
+    width: 1000px;
+    height: 900px;
+    background-color: red;
+    margin: auto;
+}
+
+.pain{
+
+width: 1000px;
+height: 200px;
+background-color: brown;
+margin: auto;
+display: flex;
+
+}
+
+.ibrahim{
+
+    500px;
+    200px;
+}
+
+.salman{
+
+    500px;
+    200px;
+}
+.gain{
+    display: flex;
+}
+
+.ibrahim1{
+
+width: 500px;
+height:200px;
+background-color: #fff;
+display: flex;
+border: 1px solid coral;
+    
+}
+
+.rahman{
+    margin: auto;
+}
+
+.monju{
+    margin: auto;
+}
+
+.ibrahim4{
+    display: flex;
+}

@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@500&family=Noto+Sans+Bengali:wght@300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pain {
+  width: 450px;
+  height: 400px;
+  background-color: #fff;
+  display: flex;
+}
+
+.ibrahim {
+  width: 150px;
+  height: 400px;
+  background-color: #000000;
+}
+
+.rahman {
+  width: 150px;
+  height: 400px;
+  background-color: #fddb20;
+}
+
+.monju {
+  width: 150px;
+  height: 400px;
+  background-color: #ef303e;
+}
+
+.pain:hover .ibrahim {
+  width: 150px;
+  height: 400px;
+  background-color: #001e95;
+}
+
+.pain:hover .rahman {
+  width: 150px;
+  height: 400px;
+  background-color: #f8f8f8;
+}
+
+.pain:hover .monju {
+  width: 150px;
+  height: 400px;
+  background-color: #ef2335;
+}
+
+.paragraph1 {
+  color: #fd2020;
+  margin: auto;
+  font-family: "Kaisei Decol", serif;
+}
+
+.paragraph1 p {
+  font-size: 30px;
+}
+
+.paragraph2 {
+  color: #3afd20;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.paragraph2 p {
+  font-size: 30px;
+}
+.paragraph3 {
+  color: #3afd20;
+  margin: auto;
+  font-family: "Noto Sans Bengali", sans-serif;
+}
+
+.paragraph3 p {
+  font-size: 30px;
+}
+
+.paragraph4 {
+  color: #514e61;
+  margin: auto;
+  font-family: "Roboto Slab", serif;
+}
+
+.paragraph4 p {
+  font-size: 30px;
+}

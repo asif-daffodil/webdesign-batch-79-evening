@@ -1,0 +1,64 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Tiro+Bangla:ital@0;1&display=swap"); */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "jorina";
+  src: url("../fonts/Oswald/Oswald-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "sokhina";
+  src: url("../fonts/Tiro_Bangla/TiroBangla-Regular.ttf");
+}
+
+.parent {
+  width: 100%;
+  height: 100vh;
+  background: #abc;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.parent > div {
+  width: 30%;
+  height: 30%;
+  background: dodgerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  color: #fff;
+}
+
+.parent > p {
+  height: max-content;
+  background: #fff;
+}
+
+.pera1,
+.pera2 {
+  padding: 0 10vw;
+  text-align: center;
+  font-family: "jorina";
+}
+
+.pera2 {
+  font-family: "sokhina";
+}
+
+.abul {
+  width: 300px;
+  height: 200px;
+  background: red;
+  /* border: 1px solid #000; */
+}
+
+.babul {
+  padding: 30px 20px;
+}

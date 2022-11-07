@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.image > div {
+  width: 80%;
+  height: 80%;
+  display: grid;
+  grid-gap: 10px;
+  margin: auto;
+  grid-template-areas:
+    "area1 area2 area3"
+    "area4 area4 area3";
+}
+
+.image > div > div:first-child {
+  grid-area: area1;
+  background-image: url("./image/downlad.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+  transition: 0.5s;
+}
+
+.image > div > div:nth-child(2) {
+  grid-area: area2;
+  background-image: url("./image/natue\ 1\ \(2\).jpeg");
+  background-position: center;
+  background-size: 100% 100%;
+  transition: 0.5s;
+}
+
+.image > div > div:nth-child(3) {
+  grid-area: area3;
+  background-image: url("./image/images.jpeg");
+  background-position: center;
+  background-size: 100% 100%;
+  transition: 0.5s;
+}
+
+.image > div > div:last-child {
+  grid-area: area4;
+  background-image: url("./image/beautiful-view-on-julian.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+  transition: 0.5s;
+}
+
+.image > div > div:hover {
+  background-size: 120% 120%;
+}

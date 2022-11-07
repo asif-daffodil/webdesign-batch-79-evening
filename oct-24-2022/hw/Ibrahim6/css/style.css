@@ -1,0 +1,61 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    width: 100%;
+    height:100vh;
+    background-color: rgb(128, 21, 228);
+    display:flex;
+    background-image:url("../image/banner1.png");
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+
+
+}
+.ibrahim{
+    width: 300px;
+    height: 200px;
+    background-color: #009739;
+    margin-top:200px;
+    margin-left: 300px;
+    display: flex;
+   
+
+
+}
+
+.abduRahman{
+    width: 260px;
+    height: 160px;
+    background: #F7D800;
+    margin: auto;
+    clip-path: polygon(0% 50%, 50% 0%, 100% 50%, 50% 100%);
+    display: flex;
+
+}
+
+.monju{
+    width: 110px;
+    height:110px ;
+    background: #0F1C60;
+    border-radius: 50%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.sifat{
+
+    width: 280px;
+    height: 180px;
+    border: 5px solid #FCFAFF;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: -40px;
+}
+

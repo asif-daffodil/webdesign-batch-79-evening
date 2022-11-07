@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: url("../images/cursor.png"), auto;
+}
+
+.bd {
+  width: 100%;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.dhk {
+  padding: 20px;
+  font: italic small-caps bold 22px auto arial;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
+  width: max-content;
+  background: dodgerblue;
+  position: relative;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.dhk::before {
+  content: "Darun";
+  font: italic small-caps bold 14px auto arial;
+  width: max-content;
+  background: red;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  padding: 8px 16px;
+  position: absolute;
+  top: 0;
+  right: 20px;
+  transform: translateY(-50%);
+  border-radius: 16px/50%;
+}
+
+.bogura {
+  width: 150px;
+  height: 150px;
+  background: dodgerblue;
+  transition: 0.5s;
+}
+
+.bogura:hover {
+  /* transform: translate(30px, 30px); */
+  /* transform: scale(120%); */
+  /* transform: rotate(180deg); */
+  /* transform: skew(-45deg); */
+  transform: translate(30px, 30px) scale(120%) rotate(180deg) skew(-5deg);
+}

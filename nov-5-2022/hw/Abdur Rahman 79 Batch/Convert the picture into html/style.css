@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.img > div {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  display: grid;
+  grid-gap: 8px;
+  grid-template-areas: " a1 b1 c1" "d1 d1 c1";
+}
+
+.img > div > div:first-child {
+  grid-area: a1;
+}
+.img > div > div:first-child > div {
+  background-image: url(./img2.jpg);
+  background-size: cover;
+}
+
+.img > div > div:nth-child(2) {
+  grid-area: b1;
+}
+.img > div > div:nth-child(2) > div {
+  background-image: url(./img3.jpg);
+  background-size: cover;
+}
+
+.img > div > div:nth-child(3) {
+  grid-area: c1;
+}
+.img > div > div:nth-child(3) > div {
+  background-image: url(./img1.jpg);
+  background-size: cover;
+}
+
+.img > div > div:last-child {
+  grid-area: d1;
+}
+
+.img > div > div:last-child > div {
+  background-image: url(./download.jpg);
+  background-size: cover;
+}
+
+.img > div > div {
+  overflow: hidden;
+  position: relative;
+}
+.img > div > div > div {
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img > div > div:hover > div {
+  width: 120%;
+  height: 120%;
+}
