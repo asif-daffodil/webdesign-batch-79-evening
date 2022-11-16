@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$bg: #f55;
+
+@mixin commonCode($w, $h) {
+  width: $w;
+  height: $h;
+  margin: 20px;
+  background: $bg;
+}
+
+.kamal {
+  @include commonCode(200px, 100px);
+}
+
+.jamal {
+  @include commonCode(300px, 100px);
+}
+
+.tomal {
+  @extend .jamal;
+  background: #5f5;
+}
+
+.prithibi {
+  @include commonCode(300px, 300px);
+  display: flex;
+  > .asia {
+    @include commonCode(250px, 250px);
+    background: #5f5;
+    display: flex;
+    margin: auto;
+    > .bd {
+      @include commonCode(200px, 200px);
+      margin: auto;
+      background: #55f;
+      display: flex;
+      > .dhk {
+        @include commonCode(150px, 150px);
+        background: #ff5;
+        margin: auto;
+        display: flex;
+        > .dhanmondi {
+          @include commonCode(100px, 100px);
+          background: #f5f;
+          margin: auto;
+          display: flex;
+          > .dipti {
+            @include commonCode(50px, 50px);
+            background: #5ff;
+            margin: auto;
+            display: flex;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ibrahim {
+  width: 1200px;
+  height: 600px;
+  background-color: azure;
+  margin: auto;
+  display: flex;
+}
+
+.ibrahim {
+  width: 100%;
+  height: 100vh;
+  background-color: antiquewhite;
+
+  display: flex;
+}
+
+.abdu {
+  width: 500px;
+  height: 300px;
+  background: url("./50.png");
+  margin: auto;
+  position: relative;
+}
+
+.abdu::before {
+  content: "";
+  background: url("./52.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: -150px;
+  left: 150px;
+  border-radius: 50%;
+  animation-name: ibrahim;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes ibrahim {
+  0% {
+    margin-top: 0;
+    margin-left: 0px;
+  }
+
+  20% {
+    margin-top: 0px;
+    margin-left: 310px;
+  }
+
+  40% {
+    margin-top: 330px;
+    margin-left: 340px;
+  }
+
+  60% {
+    margin-top: 400px;
+    margin-left: -320px;
+  }
+
+  80% {
+    margin-top: 20px;
+    margin-left: -200px;
+  }
+
+  100% {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+}
+
+.abdu::after {
+  content: "";
+  background: url("./54.jpg");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  top: 300px;
+  left: 150px;
+  border-radius: 50%;
+  animation-name: monju;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes monju {
+  0% {
+    margin-top: 0;
+    margin-left: 0px;
+  }
+
+  20% {
+    margin-top: 0px;
+    margin-left: -400px;
+  }
+
+  40% {
+    margin-top: -440px;
+    margin-left: -340px;
+  }
+
+  60% {
+    margin-top: -400px;
+    margin-left: 400px;
+  }
+
+  80% {
+    margin-top: 30px;
+    margin-left: 300px;
+  }
+
+  100% {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+}
+.abdu3 {
+  width: 300px;
+  height: 200px;
+  margin-top: 150px;
+  margin-left: 50px;
+  background-color: blue;
+  display: block;
+}

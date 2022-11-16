@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.srk {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  background: url("../images/srk.jpg");
+  position: relative;
+}
+
+.alia,
+.dipika,
+.malika,
+.priyanka {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+
+.alia {
+  background: url("../images/alia.jpeg") no-repeat center / cover;
+  animation: alia 2s infinite linear;
+}
+
+@keyframes alia {
+  0% {
+    top: -75px;
+    left: -75px;
+  }
+  25% {
+    top: -75px;
+    left: 225px;
+  }
+  50% {
+    top: 225px;
+    left: 225px;
+  }
+  75% {
+    top: 225px;
+    left: -75px;
+  }
+  100% {
+    top: -75px;
+    left: -75px;
+  }
+}
+
+.dipika {
+  background: url("../images/dipika.jpg") no-repeat center / cover;
+  animation: dipika 2s infinite linear;
+}
+
+@keyframes dipika {
+  0% {
+    top: -75px;
+    right: -75px;
+  }
+  25% {
+    top: 225px;
+    right: -75px;
+  }
+  50% {
+    top: 225px;
+    right: 225px;
+  }
+  75% {
+    top: -75px;
+    right: 225px;
+  }
+  100% {
+    top: -75px;
+    right: -75px;
+  }
+}
+
+.malika {
+  background: url("../images/malika.jpg") no-repeat center / cover;
+  animation: malika 2s infinite linear;
+}
+
+@keyframes malika {
+  0% {
+    bottom: -75px;
+    right: -75px;
+  }
+  25% {
+    bottom: -75px;
+    right: 225px;
+  }
+  50% {
+    bottom: 225px;
+    right: 225px;
+  }
+  75% {
+    bottom: 225px;
+    right: -75px;
+  }
+  100% {
+    bottom: -75px;
+    right: -75px;
+  }
+}
+
+.priyanka {
+  bottom: -75px;
+  left: -75px;
+  background: url("../images/priyanka.jpg") no-repeat center / cover;
+  animation: priyanka 2s infinite linear;
+}
+
+@keyframes priyanka {
+  0% {
+    bottom: -75px;
+    left: -75px;
+  }
+  25% {
+    bottom: 225px;
+    left: -75px;
+  }
+  50% {
+    bottom: 225px;
+    left: 225px;
+  }
+  75% {
+    bottom: -75px;
+    left: 225px;
+  }
+  100% {
+    bottom: -75px;
+    left: -75px;
+  }
+}

@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+$bg: #25a9ef;
+@mixin mymix($w, $h) {
+  width: $w;
+  height: $h;
+  margin: 20px;
+  background: $bg;
+}
+
+.main {
+  @include mymix(100%, 100%);
+}
+// .ha{
+//   @extend.maim;
+// }
+div > .h1 {
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+div > .h4 {
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+div > .btn {
+  color: #fff;
+  background: blue;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  width: 80px;
+  height: 80px;
+}
