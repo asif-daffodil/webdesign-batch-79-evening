@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  > .mainNav {
+    width: 750px;
+    margin: auto;
+    list-style: none;
+    display: flex;
+    position: relative;
+    > li {
+      width: 100%;
+      > a {
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        line-height: 50px;
+        color: #fff;
+        font-family: arial;
+        font-variant: small-caps;
+        letter-spacing: 1px;
+      }
+      &:hover {
+        background: blue;
+      }
+    }
+    > .aboutLi {
+      > .aboutSubMenu {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 900px;
+        /* display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 12px; */
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px 20px 20px 200px;
+        background-color: #000;
+        background-image: url("../images/navbarbg.png");
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        background-size: auto 100%;
+        display: none;
+        > ul {
+          list-style: none;
+          margin-right: 48px;
+          > li {
+            > a {
+              color: #fff;
+              text-decoration: none;
+              font-family: arial;
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+            &:first-child {
+              margin-bottom: 8px;
+              > a {
+                text-decoration: underline;
+                font-variant: small-caps;
+              }
+            }
+          }
+        }
+      }
+      &:hover {
+        > .aboutSubMenu {
+          display: flex;
+        }
+      }
+    }
+  }
+}
+
+.sifat {
+  width: 100%;
+  height: calc(100vh - 50px);
+  background-image: url("../images/selfie-with-boobli.png");
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}

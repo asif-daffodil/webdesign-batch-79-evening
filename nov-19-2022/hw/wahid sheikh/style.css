@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.manubar {
+  width: 100%;
+  background-color: green;
+}
+
+ul {
+  display: flex;
+  width: 80%;
+  text-align: center;
+  list-style: none;
+  margin: auto;
+}
+
+ul > li {
+  width: 100%;
+}
+
+ul > li > a {
+  color: #fff;
+  text-decoration: none;
+  line-height: 50px;
+  display: block;
+}
+
+ul > li:hover {
+  background: #55f;
+}

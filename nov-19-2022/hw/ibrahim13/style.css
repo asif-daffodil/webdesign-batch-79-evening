@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: ;
+}
+
+.contain{
+    width: 1000px;
+    height: 600px;
+    background-color: #25A9EF;
+    display: flex;
+    margin: auto;
+
+}
+.ibrahim{
+   width: 500px;
+   height: 600px;
+    overflow: hidden;
+    margin-bottom:px;
+    
+    display: flex;
+    margin-right: 50px;
+ 
+}
+
+.ibrahim >img{
+  
+  
+   
+}
+
+.abdu >h1{
+    color: #FFFFFF;
+    font-size: 50px;
+    padding-left:12px ;
+    padding-top:30px ;
+}
+
+.abdu >p{
+    color: #FFFFFF;
+    font-size: 40px;
+    padding-left:12px ;
+    padding-top:30px ;
+    margin-bottom: 50px;
+
+}
+
+.abdu >a{
+    background-color: #204ECF;
+    width: 30px;
+    height: 400px;
+    color: #FDFDFE;
+    padding: 15px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+    font-size: 25px;
+
+   
+}
+
+.monju{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 140px;
+    color: #FFFFFF;
+}
+
+.monju >p{
+    font-size: 25px;
+}
+
+.monju >h1{
+    font-size: 50px;
+    padding-left: 180px;
+}
+
