@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  background-color: black;
+  position: absolute;
+}
+
+nav > .ibrahim {
+  width: 750px;
+
+  margin: auto;
+  list-style: none;
+  display: flex;
+}
+
+nav > .ibrahim > li {
+  width: 100%;
+}
+
+nav > .ibrahim > li > a {
+  text-decoration: none;
+  line-height: 50px;
+  text-align: center;
+  display: block;
+  color: white;
+  font-family: Arial;
+}
+
+li:hover {
+  background-color: blue;
+}
+
+.abdullah > .monju {
+  position: absolute;
+  left: 50%;
+  width: 750px;
+  background-color: red;
+  background-image: url("../image/2323.png");
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  top: 100%;
+  padding-left: 200px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  transform: translateX(-50%);
+  display: none;
+
+  background-position: left bottom;
+  background-size: auto 100%;
+}
+
+.monju > ul {
+  list-style: none;
+}
+
+.monju > ul > li > a {
+  text-decoration: none;
+}
+
+.abdullah:hover > .monju {
+  display: grid;
+}
+
+.monju > ul > li:first-child > a {
+  text-decoration: underline;
+}
+
+.monju > ul {
+}

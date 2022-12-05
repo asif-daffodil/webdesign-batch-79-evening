@@ -1,0 +1,90 @@
+body {
+  color: #666666;
+  font-family: Georgia, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  margin: 0;
+}
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  width: 96%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.alignleft {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.alignright {
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+.aligncenter {
+  display: block;
+  margin: 0 auto 15px;
+}
+
+.header_area {
+  width: 100%;
+  clear: both;
+}
+
+.inner_top_header {
+  overflow: hidden;
+}
+
+.social_area {
+  float: right;
+  max-width: 600px;
+  width: 100%;
+  padding-top: 20px;
+}
+.social_area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+.social_area ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+.social_area ul li a {
+  display: block;
+  text-decoration: none;
+}
+.social_area ul li a i {
+  background: #333333;
+  border-radius: 50%;
+  display: block;
+  text-decoration: none;
+  width: 35px;
+  padding-top: 8px;
+  color: #fff;
+  height: 25px;
+  text-align: center;
+  transition: 0.5s;
+}
+.social_area ul li a:hover i {
+  background: #ba2e1f;
+}
+.social_area ul li a:hover i.fa-linkedin-in {
+  background: #0174b0;
+}
+.social_area ul li a:hover i.fa-twitter {
+  background: #41b7e5;
+}
+.social_area ul li a:hover i.fa-pinterest {
+  background: #d64134;
+}
+.social_area ul li a:hover i.fa-google-plus-g {
+  background: #de2a32;
+}
+.social_area ul li a:hover i.fa-rss {
+  background: #ee802f;
+}
