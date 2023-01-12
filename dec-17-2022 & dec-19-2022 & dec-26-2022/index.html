@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .carousel-caption {
+        background: rgba(0, 0, 0, 0.6);
+      }
+      .carousel-indicators [data-bs-target] {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- nav bar start -->
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">DIPTI</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="./bOvf94dPRxWu0u3QsPjF_tree.jpg"
+                  download
+                  >Download</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search..."
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
+                />
+                <span class="input-group-text" id="basic-addon1">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- nav bar end -->
+
+      <!-- carousel start -->
+      <div class="row">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+              <img
+                src="https://www.walkalgarve.com/wp-content/uploads/2016/10/Vicentine-Coast-Natural-Park-1200x520.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>
+                  Some representative placeholder content for the first slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <img
+                src="https://www.textbooktravel.com/wp-content/uploads/2015/04/Landscape-Arch-in-Arches-National-Park-Utah-Featured-Image.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>
+                  Some representative placeholder content for the second slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <img
+                src="http://riviera-buzz.com/wp-content/uploads/2018/06/new-mexico-1200x520.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <img
+                src="https://i0.wp.com/unusualplaces.org/wp-content/uploads/2020/04/Benagil-cave.jpg?ssl=1"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Forth slide label</h5>
+                <p>
+                  Some representative placeholder content for the forth slide.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!-- carousel end -->
+
+      <!-- card start -->
+      <div class="row mt-3">
+        <div class="col-md-12 display-3 text-center py-3">Our Services</div>
+        <div class="col-md-4">
+          <div class="card shadow">
+            <div class="">
+              <img
+                src="https://nationaltoday.com/wp-content/uploads/2021/05/space-1-640x514.jpg"
+                alt=""
+                class="card-img rounded-0 rounded-top"
+              />
+            </div>
+            <div class="card-body">
+              <div class="card-title fs-3">Space</div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <button
+                class="btn btn-primary btn-sm"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow">
+            <div class="">
+              <img
+                src="https://nationaltoday.com/wp-content/uploads/2021/05/space-1-640x514.jpg"
+                alt=""
+                class="card-img rounded-0 rounded-top"
+              />
+            </div>
+            <div class="card-body">
+              <div class="card-title fs-3">Space</div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-primary btn-sm">Read More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow">
+            <div class="">
+              <img
+                src="https://nationaltoday.com/wp-content/uploads/2021/05/space-1-640x514.jpg"
+                alt=""
+                class="card-img rounded-0 rounded-top"
+              />
+            </div>
+            <div class="card-body">
+              <div class="card-title fs-3">Space</div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-primary btn-sm">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card end -->
+
+      <div class="row mt-3">
+        <!-- accordion start -->
+        <div class="col-md-12 display-3 text-center py-3">FAQ and Skills</div>
+        <div class="col-md-6">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item mb-2">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  What is your name?
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Ratione nostrum, eveniet, et fugit consequuntur iure officia
+                  qui non numquam voluptas doloremque delectus similique ducimus
+                  aliquid iste laborum harum? Voluptatum, cumque?
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-2 border">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  What do you do?
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Ipsam, sed nemo. Itaque quos incidunt, nulla cum non inventore
+                  assumenda doloremque dolore deleniti quas, possimus, illo
+                  dolor ab ipsum quo blanditiis!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  What is your country name?
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Placeat sint sequi quod aliquid ad est doloremque veniam quas
+                  ex, et harum cupiditate rem dignissimos amet? Corporis
+                  deserunt quis totam recusandae.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- accordion end -->
+
+        <!-- progress bar start -->
+        <div class="col-md-6">
+          <h2>Skills</h2>
+          <label for="">HTML</label>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+              style="width: 90%"
+            >
+              90%
+            </div>
+          </div>
+          <label for="" class="mt-3">CSS</label>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated"
+              style="width: 80%"
+            >
+              80%
+            </div>
+          </div>
+          <label for="" class="mt-3">Bootstrap</label>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-info"
+              style="width: 85%"
+            >
+              85%
+            </div>
+          </div>
+          <label for="" class="mt-3">JavaScript</label>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+              style="width: 40%"
+            >
+              40%
+            </div>
+          </div>
+          <label for="" class="mt-3">NodeJS</label>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+              style="width: 20%"
+            >
+              20%
+            </div>
+          </div>
+        </div>
+        <!-- progress bar end -->
+      </div>
+
+      <!-- table start -->
+      <div class="row mt-3">
+        <div class="col-md-12 display-3 text-center py-3">Employee List</div>
+        <div class="col-md-12">
+          <table class="table table-dark table-hover table-striped">
+            <tr>
+              <th>S.N.</th>
+              <th>Name</th>
+              <th>City</th>
+              <th>Gender</th>
+            </tr>
+            <tr>
+              <td>01</td>
+              <td>Aslam Mia</td>
+              <td>Dhaka</td>
+              <td>Male</td>
+            </tr>
+            <tr>
+              <td>01</td>
+              <td>Aslam Mia</td>
+              <td>Dhaka</td>
+              <td>Male</td>
+            </tr>
+            <tr>
+              <td>01</td>
+              <td>Aslam Mia</td>
+              <td>Dhaka</td>
+              <td>Male</td>
+            </tr>
+            <tr>
+              <td>01</td>
+              <td>Aslam Mia</td>
+              <td>Dhaka</td>
+              <td>Male</td>
+            </tr>
+            <tr>
+              <td>01</td>
+              <td>Aslam Mia</td>
+              <td>Dhaka</td>
+              <td>Male</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <!-- table end -->
+
+      <!-- contact form start -->
+      <div class="row mt-3">
+        <div class="col-md-4">
+          <div class="col border p-4">
+            <h2 class="mb-3">Contact US</h2>
+            <form action="">
+              <div class="mb-3">
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  class="form-control"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  placeholder="Your Email"
+                  class="form-control"
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  placeholder="Youe Message"
+                  class="form-control"
+                  style="resize: none"
+                ></textarea>
+              </div>
+              <div class="mb-3">
+                <input
+                  type="submit"
+                  value="Send Message"
+                  class="btn btn-primary"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d936469.0036931849!2d89.54681063480781!3d23.529551303634815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bfbe6c0bab8b%3A0x8784d7f5150e9ae3!2sAsif%20Abir!5e0!3m2!1sen!2sbd!4v1672061458892!5m2!1sen!2sbd"
+            width="100%"
+            height="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <!-- contact form end -->
+    </div>
+
+    <!-- modal 1 start -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Hello World</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            itaque minus repudiandae placeat cupiditate earum nesciunt ipsam
+            rerum voluptates iure?...
+          </div>
+          <div class="modal-footer">The future is here...</div>
+        </div>
+      </div>
+    </div>
+    <!-- modal 1 end -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
