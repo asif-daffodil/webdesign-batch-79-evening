@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Please solve the problems</h1>
+    <script>
+      let luckyNumber = [5, 10, 7, 15, 23, 5, 9, 8, 15, 23];
+
+      // Find the sum of all the numbers in the array
+      let sum = 0;
+      for (let i = 0; i < luckyNumber.length; i++) {
+        sum += luckyNumber[i];
+      }
+      console.log(sum);
+
+      // Find the sum of the odd numbers in the array
+      let sumOdd = 0;
+      for (let i = 0; i < luckyNumber.length; i++) {
+        if (luckyNumber[i] % 2 !== 0) {
+          sumOdd += luckyNumber[i];
+        }
+      }
+      console.log("The sum of the odd numbers in the array is:", sumOdd);
+
+      // Find the sum of the even numbers in the array
+      let sumEven = 0;
+      for (let i = 0; i < luckyNumber.length; i++) {
+        if (luckyNumber[i] % 2 === 0) {
+          sumEven += luckyNumber[i];
+        }
+      }
+      console.log("The sum of the even numbers in the array is:", sumEven);
+
+      // Find the unique number and make a new array with these unique numbers
+      let uniqueNumbers = Array.from(new Set(luckyNumber));
+      console.log("The unique numbers in the array are:", uniqueNumbers);
+    </script>
+  </body>
+</html>

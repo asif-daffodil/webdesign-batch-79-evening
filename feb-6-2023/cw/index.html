@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="pera">Bangladesh</p>
+    <button id="dhk">Dhaka</button>
+    <button id="bd">Bangladesh</button>
+    <div id="showName">
+        <form action="" id="snbtn">
+            <input type="text" placeholder="Your Name" id="sntext">
+            <input type="submit" value="Show Name">
+        </form>
+        <div id="stn"></div>
+    </div>
+
+    <script>
+       const pera = document.getElementById("pera");
+       const dhk = document.getElementById("dhk");
+       const bd = document.getElementById("bd");
+       const showName = document.getElementById("showName");
+
+       const sntext = document.getElementById("sntext");
+       const snbtn = document.getElementById("snbtn");
+       const stn = document.getElementById("stn");
+
+       showName.style.cssText = `
+        margin: 20px 0;
+       `;
+
+       snbtn.addEventListener("submit", (e)=>{
+        e.preventDefault();
+        stn.textContent = sntext.value;
+       })
+
+       const alafunc = () => {
+        pera.style.cssText = `
+        font-style: normal; 
+        color: red; 
+        font-size: 18px
+       `;
+       }
+
+       dhk.addEventListener("click", ()=>{
+        pera.innerHTML = "Dhaka";
+        alafunc();
+       })
+
+       bd.addEventListener("click", ()=>{
+        pera.innerHTML = "Bangladesh";
+        pera.style.cssText = `
+        font-style: italic; 
+        color: blue; 
+        font-size: 24px
+       `;
+       })
+
+       /* pera.style.color = "blue";
+       pera.style.fontSize = "24px"; */
+
+
+       pera.style.cssText = `
+       font-style: italic; 
+       color: blue; 
+       font-size: 24px
+       `;
+
+       
+
+    </script>
+</body>
+</html>
