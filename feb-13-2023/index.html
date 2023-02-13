@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" id="myForm">
+        <input type="file" name="pic">
+        <button type="submit">Upload</button>
+    </form>
+    <div></div>
+    <img src="" alt="" id="img">
+
+    <script>
+        const myForm = document.getElementById("myForm");
+        const pic = document.getElementsByName("pic")[0];
+        const img = document.querySelector("#img");
+
+        myForm.addEventListener("submit", (e) => {
+            e.preventDefault();
+            const obj = new FormData(myForm);
+            const pic = obj.get("pic");
+            const div = myForm.nextElementSibling;
+
+            div.style.cssText = `color: red`;
+            if(!pic.name){
+                div.textContent = "Please choose an image file";
+            }else if(pic.type != "image/jpg" && pic.type != "image/jpeg" && pic.type != "image/png"){
+                div.textContent = "Invalid Image format";
+            }else{
+                div.textContent = "";
+                
+
+            }
+        })
+
+        pic.addEventListener("change", ()=>{
+            const [file] = pic.files;
+            if(file){
+                img.src = URL.createObjectURL(file)
+            }
+        })
+
+        /*
+        const wahid = {
+            name: "Wahidullah Sehikh",
+            age: 26,
+            city: "Bagerhat",
+            gender: "Male"
+        }
+
+        console.log(wahid.city);
+        */
+
+        /*
+        class ibrahim
+        {
+            name = "igrahim vai";
+            age = function() {
+                return 29;
+            }
+        }
+
+        const iobj = new ibrahim();
+
+        console.log(iobj.age());
+        */
+
+        /*
+        const peoples = {
+            kamal: 45,
+            jamal: 25,
+            tomal: 55,
+            akmal: 5,
+        }
+
+        const {kamal, jamal} = peoples;
+        // console.log(kamal, jamal);
+
+        const cites = [{malamal: 42}]
+
+        const [malamal] = cites;
+        console.log(malamal);
+        */
+    </script>
+</body>
+</html>

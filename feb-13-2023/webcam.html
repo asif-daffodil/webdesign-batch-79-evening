@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="my_camera" style="width:320px; height:240px;"></div>
+    <div id="my_result"></div>
+    <a href="javascript:void(take_snapshot())">Take Snapshot</a>
+    <script src="./webcam.js"></script>
+    <script>
+        Webcam.attach( '#my_camera' );
+        function take_snapshot() {
+            Webcam.snap( function(data_uri) {
+                document.getElementById('my_result').innerHTML = '<img src="'+data_uri+'" id="userImgId"/>';
+            } );
+        }
+    </script>
+</body>
+</html>
