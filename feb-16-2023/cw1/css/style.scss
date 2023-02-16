@@ -55,6 +55,39 @@
             }
         }
     }
+    &:nth-child(2){
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .accor{
+        width: 600px;
+        height: max-content;
+        border: 1px solid #000;
+        margin: 8px 0;
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+        transition: height 0.4s;
+        &:hover{
+            background-color: #ddd;
+        }
+        >.heading{
+            cursor: pointer;
+        }
+        >.d-none{
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+            height: 0px;
+            transition: height 0.4s;
+        }
+    }
 }
 
 .d-none{
